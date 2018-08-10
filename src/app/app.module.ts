@@ -4,12 +4,14 @@ import { FormsModule }   from '@angular/forms'; //Import declaration inside the 
 
 import { AppComponent } from './app.component';
 import { MySignupFormComponent } from './my-signup-form/my-signup-form.component';
+import { QuoteItemComponent } from './quote-item/quote-item.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     MySignupFormComponent,
+    QuoteItemComponent,
    
   ],
   imports: [
